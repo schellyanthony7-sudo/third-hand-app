@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#19728d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Third Hand Fab &amp; Welding</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="topbar">
+  <button id="backBtn" class="icon-btn" aria-label="Back" hidden>&#8592;</button>
+  <h1 id="pageTitle">Third Hand</h1>
+  <span id="topRight"></span>
+</header>
+<main id="app"><div class="loading">Loading…</div></main>
+<nav id="bottomnav">
+  <a href="#/home" data-tab="home"><span class="ni">&#8962;</span><span>Home</span></a>
+  <a href="#/build" data-tab="build"><span class="ni">&#127959;&#65039;</span><span>Building</span></a>
+  <a href="#/repair" data-tab="repair"><span class="ni">&#128295;</span><span>Repair</span></a>
+  <a href="#/office" data-tab="office"><span class="ni">&#128210;</span><span>Office</span></a>
+  <a href="#/more" data-tab="more"><span class="ni">&#9776;</span><span>More</span></a>
+</nav>
+<div id="toast" role="status"></div>
+<div id="modal" hidden></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
